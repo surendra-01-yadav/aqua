@@ -1,0 +1,25 @@
+# Node and Web
+node_modules/
+dist/
+build/
+
+# Python Caches & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datasets and outputs
+data/synthetic_ground_truth/
+data/spectral_analysis/
+runs/
+reports/
+
+# IDE files
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store

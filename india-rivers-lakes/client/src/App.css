@@ -1,0 +1,29 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 0;
+}
+
+.footer {
+  background: var(--primary-dark);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 24px 20px;
+  margin-top: auto;
+}
+
+.footer-content p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-sub {
+  font-size: 12px !important;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 4px;
+}
